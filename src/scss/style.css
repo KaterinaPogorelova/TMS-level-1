@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap");
+.header {
+  position: relative;
+  padding-top: 36px;
+  /*background: url(..//../img//banner/bg-img.png) no-repeat center/cover;*/
+  /*&:before {
+  	content: url(..//../img//banner/bg-img-before.png) no-repeat center/cover;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	z-index: 2;
+  	opacity: 0.5;
+  }*/
+}
+.header__logo {
+  padding-bottom: 36px;
+}
+.header__nav .nav__item {
+  padding-bottom: 36px;
+  border-bottom: 3px solid #BABBC5;
+}
+
+/*global styles*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a {
+  display: block;
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+		.header {
+
+			border-bottom: 1px solid #BABBC5;
+
+			& .container {
+				display: flex;
+				justify-content: space-between;
+			}
+		}
+
+		.header {
+			&__logo-wrapper {
+				padding-top: 38px;
+				padding-bottom: 36px;
+			}
+
+			&__nav {
+				height: 105px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				width: 670px;
+
+				.nav__item {
+					padding-top: 46px;
+					height: 100%;
+					width: 20%;
+					text-align: center;
+					text-transform: uppercase;
+					font-size: $h6;
+					font-weight: 700;
+					color: #FFFFFF;
+				}
+
+				&:hover {
+					a {
+						border-bottom: 3px solid $nav-line-hover;
+					}
+				}
+			}
+		}
