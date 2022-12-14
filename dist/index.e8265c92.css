@@ -1,7 +1,9 @@
 @import "https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap";
 .header {
+  z-index: 1;
   border-bottom: 1px solid #babbc5;
+  position: relative;
 }
 
 .header .container {
