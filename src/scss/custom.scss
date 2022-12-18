@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	transition: all .3s ease-in-out;
+	font-family: "Raleway", sans-serif;
+}
+
+a {
+	display: block;
+	color: #000;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.button {
+	max-width: 370px;
+	text-align: center;
+	color: $white;
+	font-size: $h4;
+	font-weight: 900;
+	background-color: $btn-color-normal;
+	text-transform: uppercase;
+	padding: 25px 50px;
+	margin: 0 auto;
+
+	@media (max-width: 1200px) {
+		max-width: 314px;
+		padding: 25px 35px;
+	}
+
+	@media (max-width: 768px) {
+		max-width: 280px;
+		padding: 15px 25px;
+	}
+
+	&:hover {
+		background-color: $btn-color-hover;
+	}
+
+	&:active {
+		background-color: $btn-color-normal;
+		box-shadow: $btn-shadow-active;
+	}
+}

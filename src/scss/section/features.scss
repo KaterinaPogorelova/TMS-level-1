@@ -1,0 +1,77 @@
+.features {
+	padding: 120px 0 25px;
+
+	@media (max-width: 1200px) {
+		padding: 80px 0 30px;
+	}
+
+	@media (max-width: 768px) {
+		padding: 40px 0 0px;
+	}
+
+	&-wrapper {
+		display: flex;
+		margin: 0 -15px;
+		flex-wrap: wrap;
+
+		@media (max-width: 1200px) {
+			margin: 0 -10px;
+		}
+
+		@media (max-width: 768px) {
+			margin: 0px;
+		}
+	}
+
+}
+
+.feature {
+	margin: 0 15px 90px;
+	width: 30.5%;
+
+	@media (max-width: 1200px) {
+		margin: 0 10px 50px;
+	}
+
+	@media (max-width: 768px) {
+		margin: 0 0px 42px;
+		width: 100%;
+	}
+
+	& svg {
+		height: 90px;
+		display: block;
+		margin: 0 auto;
+
+		@media (max-width: 1200px) {
+			height: 65px;
+		}
+	}
+
+	&__title {
+		font-size: $h4;
+		color: $blacktitle;
+		margin: 55px 0 42px;
+		text-align: center;
+
+		@media (max-width: 1200px) {
+			font-size: $h4desk;
+			margin: 45px 0 25px;
+		}
+
+		@media (max-width: 768px) {
+			margin: 38px 0 10px;
+		}
+	}
+
+	&__text {
+		font-size: $h5;
+		color: $featuretext;
+		text-align: center;
+		font-weight: 400;
+
+		@media (max-width: 1200px) {
+			font-size: $h5desk;
+		}
+	}
+}
