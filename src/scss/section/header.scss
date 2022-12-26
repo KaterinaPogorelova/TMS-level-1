@@ -61,6 +61,7 @@
 					opacity: 0;
 					background: url(../img/banner/bg-img.png) no-repeat center/cover;
 					padding-top: 85px;
+					justify-content: flex-start;
 				}
 
 				&::after {
@@ -119,7 +120,7 @@
 
 					@media (max-width: 768px) {
 						width: 100%;
-						height: auto;
+						height: 65px;
 						padding: 25px 15px;
 						text-align: left;
 						z-index: 6;
