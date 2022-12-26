@@ -575,6 +575,12 @@ a {
   }
 }
 
+.person-cards__card {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
 .card__img-wrapper {
   max-width: 270px;
   max-height: 270px;

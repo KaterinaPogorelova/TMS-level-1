@@ -26,6 +26,12 @@
 	}
 }
 
+.person-cards__card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 .card__img-wrapper {
 	max-width: 270px;
 	max-height: 270px;
