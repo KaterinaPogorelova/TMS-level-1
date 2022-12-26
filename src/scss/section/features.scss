@@ -38,20 +38,24 @@
 		width: 100%;
 	}
 
-	& svg {
-		height: 90px;
-		display: block;
+	&__pic-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100px;
+		height: 100px;
 		margin: 0 auto;
 
 		@media (max-width: 1200px) {
-			height: 65px;
+			width: 90px;
+			height: 90px;
 		}
 	}
 
 	&__title {
 		font-size: $h4;
 		color: $blacktitle;
-		margin: 55px 0 42px;
+		margin: 50px 0 42px;
 		text-align: center;
 
 		@media (max-width: 1200px) {

@@ -1,20 +1,27 @@
 .work {
 	width: 100%;
 
+	& .container {
+		max-width: 1510px;
+		margin: 0 auto;
+		padding: 0;
+	}
 
 	&-wrapper {
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
+		gap: 2px;
 	}
 
 	&__content {
-		width: 25%;
+		width: calc(25% - 1.5px);
+		max-height: 340px;
 		overflow: hidden;
 		position: relative;
 
 		@media (max-width: 768px) {
-			width: 50%;
+			width: calc(50% - 1px);
 		}
 
 		&-info {
@@ -23,12 +30,12 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
-			z-index: -1;
-			background-color: $work-hover-color;
-			opacity: 0.8;
-			padding: 30% 0;
-
-
+			background: rgba(255, 67, 67, 0.8);
+			opacity: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 		}
 
 		&-title {
@@ -60,12 +67,12 @@
 		}
 
 		&:hover .work__content-info {
-			z-index: 1;
+			opacity: 1;
 		}
 
 		&:active .work__content-info {
-			z-index: 1;
-			background-color: $work-active-color;
+			opacity: 1;
+			background: rgba(185, 12, 12, 0.8);
 		}
 
 		&-img {
