@@ -1,0 +1,15 @@
+@mixin third {
+	width: (360px/1170px)*100%;
+
+	@media (max-width: 1200px) {
+		width: (305px/994px)*100%;
+	}
+}
+
+@mixin thirdfooter {
+	width: (370px/1170px)*100%;
+
+	@media (max-width: 1200px) {
+		width: (313px/994px)*100%;
+	}
+}

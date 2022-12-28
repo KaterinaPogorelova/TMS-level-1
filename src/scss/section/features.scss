@@ -27,7 +27,7 @@
 
 .feature {
 	margin: 0 15px 90px;
-	width: 30.5%;
+	@include third;
 
 	@media (max-width: 1200px) {
 		margin: 0 10px 50px;
